@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Encuentra Huellitas</title>
   <link rel="stylesheet" href=".//css/style.css">
   <script src="https://kit.fontawesome.com/02caee2651.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -56,17 +56,18 @@
   <main>
     <section id="sectionBanner">
       <div class="banner">
-        <div class="container-sm w-50">
-          <img src="./Resources/img/logo_00006.png" class="img-fluid" alt="Banner">
+        <div class="container-sm ">
+          <img src="./Resources/img/logo_00003.png" class="img-fluid" alt="Banner" id="logo"><img src="./Resources/img/logo_00002.png" class="img-fluid" alt="Banner">
         </div>
-      </div>
+    </section>
+</section>
     </section>  
     <section id="sectionBuscaEncuentraAbraza">
       <div id="tituloSeccion">
         <p><h1>Busca, Encuentra, Abraza de Nuevo</h1></p>
       </div>   
       <div class="container-sm w-100">
-        <img src="./Resources/img/steps_00001.png" class="img-fluid" alt="Banner">
+        <img src="./Resources/img/steps_00001.png" class="img-fluid" alt="Banner" style="border-radius: 0.5rem;"; >
       </div>
     </section>
     <section id="sectionbuscarmascota">
@@ -81,13 +82,13 @@
               <div class="card-body">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item text-center fw-bold">Blue label</li>
-                  <li class="list-group-item">Fecha de Extravio: <strong>23/09/2023</strong></li>
+                  <li class="list-group-item" >Fecha de Extravio: <strong id="fechaExtravio001">2/11/2023</strong></li> 
                   <li class="list-group-item">Zona: <strong>Balvanera</strong></li>
                 </ul>
                 <div class="card text-center">
-                  <a href="mascotaInfo.html" class="btn btn-success">Más información</a>
-                  <div class="card-footer text-body-secondary">Hoy</div>
-                </div>
+                  <a href="mascotaInfo.html" class="btn btn-success" >Más información</a>
+                  <div class="card-footer text-body-secondary" id="cantidadDias001"></div>
+                </div>   
               </div><!--card-body-->
             </div><!--card-->
           </div><!--col-sm-4-->
@@ -97,12 +98,12 @@
               <div class="card-body">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item text-center fw-bold">Jack Daniels</li>
-                  <li class="list-group-item">Fecha de Extravio: <strong>12/09/2023</strong></li>
+                  <li class="list-group-item">Fecha de Extravio: <strong id="fechaExtravio002">12/09/2023</strong></li>
                   <li class="list-group-item">Zona: <strong>Boedo</strong></li>
                 </ul>
                 <div class="card text-center">
                   <a href="#" class="btn btn btn-secondary" onclick="alert_SinInfo()">Más información</a>
-                  <div class="card-footer text-body-secondary">Hace 11 días</div>
+                  <div class="card-footer text-body-secondary" id="cantidadDias002"></div>
                 </div><!--card text-center-->
               </div><!--card-body-->
             </div><!--card-->
@@ -113,12 +114,12 @@
               <div class="card-body">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item text-center fw-bold">Havana Club</li>
-                  <li class="list-group-item">Fecha de Extravio: <strong>05/07/2023</strong></li>
+                  <li class="list-group-item">Fecha de Extravio: <strong id="fechaExtravio003">05/07/2023</strong></li>
                   <li class="list-group-item">Zona: <strong>Congreso</strong></li>
                 </ul>
                 <div class="card text-center">
                   <a href="#" class="btn btn btn-secondary" onclick="alert_SinInfo()">Más información</a>
-                  <div class="card-footer text-body-secondary">Hace 80 días</div>
+                  <div class="card-footer text-body-secondary" id="cantidadDias003"></div>
                 </div><!--car tex-center-->
               </div><!--card-body-->
             </div><!--card-->
@@ -129,12 +130,12 @@
               <div class="card-body">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item text-center fw-bold">Blue label</li>
-                  <li class="list-group-item">Fecha de Extravio: <strong>23/09/2023</strong></li>
+                  <li class="list-group-item">Fecha de Extravio: <strong id="fechaExtravio004">23/09/2023</strong></li>
                   <li class="list-group-item">Zona: <strong>Balvanera</strong></li>
                 </ul>
                 <div class="card text-center">
                   <a href="mascotaInfo.html" class="btn btn-success">Más información</a>
-                  <div class="card-footer text-body-secondary">Hoy</div>
+                  <div class="card-footer text-body-secondary" id="cantidadDias004"></div>
                 </div>
               </div><!--card-body-->
             </div><!--card-->
@@ -145,12 +146,12 @@
               <div class="card-body">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item text-center fw-bold">Jack Daniels</li>
-                  <li class="list-group-item">Fecha de Extravio: <strong>12/09/2023</strong></li>
+                  <li class="list-group-item">Fecha de Extravio: <strong id="fechaExtravio005">12/09/2023</strong></li>
                   <li class="list-group-item">Zona: <strong>Boedo</strong></li>
                 </ul>
                 <div class="card text-center">
                   <a href="#" class="btn btn btn-secondary" onclick="alert_SinInfo()">Más información</a>
-                  <div class="card-footer text-body-secondary">Hace 11 días</div>
+                  <div class="card-footer text-body-secondary" id="cantidadDias005"></div>
                 </div><!--card text-center-->
               </div><!--card-body-->
             </div><!--card-->
@@ -161,12 +162,12 @@
               <div class="card-body">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item text-center fw-bold">Havana Club</li>
-                  <li class="list-group-item">Fecha de Extravio: <strong>05/07/2023</strong></li>
+                  <li class="list-group-item">Fecha de Extravio: <strong id="fechaExtravio006">05/07/2023</strong></li>
                   <li class="list-group-item">Zona: <strong>Congreso</strong></li>
                 </ul>
                 <div class="card text-center">
                   <a href="#" class="btn btn btn-secondary" onclick="alert_SinInfo()">Más información</a>
-                  <div class="card-footer text-body-secondary">Hace 80 días</div>
+                  <div class="card-footer text-body-secondary" id="cantidadDias006"></div>
                 </div><!--car tex-center-->
               </div><!--card-body-->
             </div><!--card-->
@@ -253,7 +254,7 @@
     </div>
     <div class="container">
       <div class="card card-body">
-        <!-- <form action="https://formspree.io/f/myyqbyge" method="POST">  -->
+        <form action="https://formspree.io/f/myyqbyge" method="POST"> 
               
           <div class="mb-3">
             <label for="correo">Correo electrónico:</label>
@@ -272,7 +273,7 @@
             </label>
           </div>
           <div class="text-center">
-            <button type="submit" onclick="alert_SinInfo()">Enviar</button>
+            <button type="submit">Enviar</button>
           </div>
         <!-- </form> -->
   </div><!--card card-body-->  
@@ -310,8 +311,8 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-  <script>function alert_SinInfo() { alert("En este momento no es posible realizar la transacción. Por favor intente nuevamente más tarde."); }</script>
-  
+    <script>function alert_SinInfo() { alert("En este momento no es posible realizar la transacción. Por favor intente nuevamente más tarde."); }</script>
+    <script refer src="./js/fechas.js"> </script><script refer src="./js/efectoCards.js"> </script><script refer src="./js/efectoLogo.js"> </script>
 </body>
 
 </html>
